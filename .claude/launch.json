@@ -1,0 +1,12 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "webapp-agent",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["next", "dev", "-p", "7777", "-H", "0.0.0.0"],
+      "port": 7777,
+      "autoPort": false
+    }
+  ]
+}
